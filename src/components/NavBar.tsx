@@ -20,7 +20,7 @@ interface MenuItem {
 }
 
 export default function NavBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: MenuItem[] = [
     { path: '/', name: 'Home' },
     { path: '/works', name: 'Works' },
@@ -30,8 +30,12 @@ export default function NavBar() {
   ];
   const name: string = 'Ben.Borla';
 
+  function handleMenuOpenChange(isOpen: boolean | undefined): void {
+    setIsMenuOpen(!!isOpen)
+  }
+
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-black">
+    <Navbar onMenuOpenChange={handleMenuOpenChange} className="bg-black">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
