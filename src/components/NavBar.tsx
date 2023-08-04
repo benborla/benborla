@@ -11,7 +11,7 @@ import {
   NavbarItem,
   Link,
 } from "@nextui-org/react";
-import { Button, Types } from './Button';
+import Button, { Types } from './Button';
 import { BrandLogo } from "./BrandLogo";
 
 interface MenuItem {
