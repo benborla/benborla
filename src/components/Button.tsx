@@ -1,5 +1,6 @@
 import { forwardRef, ReactNode } from "react";
 import Link from "next/link"
+import { cn } from '@/utils/utils'
 
 export enum Types {
   LINK = 'link',
@@ -21,13 +22,13 @@ const defaultStyle = "bg-lime-400 px-5 py-2 active:bg-neongreen border-b-gray-40
 
 const Button = forwardRef<Ref, Props>((props, ref) => (
   props.type === Types.LINK ? (
-    <Link href= { props.href || '' } className = { defaultStyle + (props.className || '')}>
-      { props.children }
-      </Link>
-  ) : <button ref= { ref } type = { props.type } className = { defaultStyle + (props.className || '')}>
-  { props.children }
+    <Link href={props.href || ''} className={defaultStyle + (props.className || '')}>
+      {props.children}
+    </Link>
+  ) : <button ref={ref} type={props.type} className={cn(defaultStyle, props.className)}>
+    {props.children}
   </button>
-  
+
 ));
 
 Button.displayName = 'Button'

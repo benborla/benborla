@@ -18,17 +18,23 @@ export default function Home() {
       <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-[3rem] text-center">
         <span>I am a </span>
         <TypeAnimation sequence={[
-          'Web Developer',
+          '⚡️ Full Stack Developer',
           2000,
-          'Gamer',
+          '🎨 Front-end Developer',
           2000,
-          'Gym Rat',
+          '💻 Back-end Developer',
+          2000,
+          '🎮 Gamer',
+          2000,
+          '🕹️ Retro Gamer',
+          2000,
+          '🏋 Gym Rat',
           2000,
         ]}
-        className='text-neongreen'
-        speed={50}
-        wrapper='span'
-        repeat={Infinity}
+          className='text-neongreen'
+          speed={50}
+          wrapper='span'
+          repeat={Infinity}
         />
       </h2>
     </>
