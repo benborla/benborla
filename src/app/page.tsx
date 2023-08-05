@@ -1,11 +1,12 @@
 'use client'
 
 import { TypeAnimation } from 'react-type-animation'
+import Content from '@/components/Content'
 
 export default function Home() {
 
   return (
-    <>
+    <Content>
       <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] text-center">
         <span className="font-extrabold
           text-transparent
@@ -16,7 +17,7 @@ export default function Home() {
           cursor-pointer
         ">Ben Borla</span>
       </h1>
-      <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-[3rem] text-center">
+      <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-[3rem] text-center mt-5">
         <span>I am a </span>
         <TypeAnimation sequence={[
           '⚡️ Full Stack Developer',
@@ -38,6 +39,6 @@ export default function Home() {
           repeat={Infinity}
         />
       </h2>
-    </>
+    </Content>
   );
 }

@@ -23,7 +23,7 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: MenuItem[] = [
     { path: '/', name: 'Home' },
-    { path: '/works', name: 'Works' },
+    { path: '/about-me', name: 'About Me' },
     { path: '/case-studies', name: 'Case Studies' },
     { path: '/tools', name: 'Tools' },
     { path: '/blogs', name: 'Blogs' },
