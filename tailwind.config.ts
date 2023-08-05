@@ -14,9 +14,6 @@ export default {
       colors: {
         "neongreen": "#dfff00"
       },
-      screens: {
-        "sm": "480px"
-      },
       fontFamily: {
         sourceCodePro: ['var(--font-source-code-pro)', 'sans-serif']
       }
