@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to My GitHub Profile! 👋
 
-## Getting Started
+## About Me
 
-First, run the development server:
+I'm a seasoned Web Developer with 9 years of experience under my belt. My journey in the world of web development has been exciting and full of continuous learning. Now, I'm expanding my horizons and exploring new territories in the tech landscape.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### 🚀 Current Focus
+
+I'm currently diving into:
+
+- **SaaS (Software as a Service)**: Exploring the world of cloud-based software solutions.
+- **System Development**: Delving deeper into the intricacies of building robust and scalable systems.
+- **WASM (WebAssembly)**: Investigating the potential of running high-performance code in web browsers.
+
+### 💻 Tech Stack
+
+```
+                 HTML/CSS
+                /        \
+               /          \
+          JavaScript     Backend
+         /    |    \     /     \
+     React  Vue  NextJS PHP   Rust
+     /                /|\     /|\
+ NextJS        Symfony | Laminas |  \
+              Laravel |   Axum Tide Leptos(WASM)
+                      |
+                  Databases
+                 /    |    \
+           Postgres MySQL SQLite
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌱 Always Learning
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technology never stands still, and neither do I. I'm always eager to learn new things and stay up-to-date with the latest trends in web development and beyond.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📫 How to Reach Me
 
-## Learn More
+[Your contact information or preferred method of contact]
 
-To learn more about Next.js, take a look at the following resources:
+### 📊 GitHub Stats
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=benborla&show_icons=true&theme=radical)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🔝 Top Languages
 
-## Deploy on Vercel
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=benborla&layout=compact&theme=radical)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔥 Streak Stats
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=benborla&theme=radical)
+
+---
+
+Feel free to explore my repositories and don't hesitate to reach out if you have any questions or if you're interested in collaborating!
