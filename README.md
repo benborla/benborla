@@ -36,7 +36,7 @@ Technology never stands still, and neither do I. I'm always eager to learn new t
 
 ### 📫 How to Reach Me
 
-[Your contact information or preferred method of contact]
+Email: benborla@icloud.com
 
 ### 📊 GitHub Stats
 
